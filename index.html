@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">folio<b>.</b></div>
+            <ul class="navitems">
+                <li><a href="/home.html">home</a></li>
+                <li><a href="/about.html">about</a></li>
+                <li><a href="/skills.html">skills</a></li>
+                <li><a href="#">blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/mohit-goswami-275b09235/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/mohitgoswami24"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-solid fa-code"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multitext"></span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+                     excepturi! Fuga voluptatem doloremque, placeat, rem dignissimos vero 
+                     temporibus veniam eaque commodi itaque architecto fugiat excepturi quidem,
+                      accusantium doloribus ut similique!
+                </p>
+                <div class="btns">
+                    <button>download CV</button>
+                    <button>hire me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <!-- <div class="imgbox">
+                    <img src="splash.png" id="splash">
+                     <img src="" > 
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multitext",{
+            strings : ["coder","designer","developer"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay :1500
+
+        })
+    </script>
+
+    <script src="https://kit.fontawesome.com/ede9b43825.js" crossorigin="anonymous"></script>
+</body>
+</html>
